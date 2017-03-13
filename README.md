@@ -26,6 +26,7 @@ fmdb详细用法:
 4.查找数据的方法:[fmdb executeQuery:SQlite语句];
 
 5.获取表中所有字段的方法:
+
      FMResultSet *rs = [fmdb getTableSchema:tableName];
     NSMutableArray *titles = [NSMutableArray array];
     while ([rs next]) {
